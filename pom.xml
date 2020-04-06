@@ -5,7 +5,6 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-<<<<<<< HEAD
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -14,16 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>MeuPrimeiroProjeto</name>
 	<description>Demo project for Spring Boot</description>
-=======
-		<version>2.2.0.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.pessoal</groupId>
-	<artifactId>meu-primeiro-projeto</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>MeuPrimeiroProjeto</name>
-	<description>Meu primeiro projeto com Spring Boot</description>
->>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
 
 	<properties>
 		<java.version>1.8</java.version>
