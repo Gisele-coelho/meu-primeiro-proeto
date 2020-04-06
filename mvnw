@@ -19,7 +19,11 @@
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
+<<<<<<< HEAD
 # Maven Start Up Batch script
+=======
+# Maven2 Start Up Batch script
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
 #
 # Required ENV vars:
 # ------------------
@@ -114,6 +118,10 @@ if $mingw ; then
     M2_HOME="`(cd "$M2_HOME"; pwd)`"
   [ -n "$JAVA_HOME" ] &&
     JAVA_HOME="`(cd "$JAVA_HOME"; pwd)`"
+<<<<<<< HEAD
+=======
+  # TODO classpath?
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
 fi
 
 if [ -z "$JAVA_HOME" ]; then
@@ -211,11 +219,15 @@ else
     if [ "$MVNW_VERBOSE" = true ]; then
       echo "Couldn't find .mvn/wrapper/maven-wrapper.jar, downloading it ..."
     fi
+<<<<<<< HEAD
     if [ -n "$MVNW_REPOURL" ]; then
       jarUrl="$MVNW_REPOURL/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
     else
       jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
     fi
+=======
+    jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.4.2/maven-wrapper-0.4.2.jar"
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
     while IFS="=" read key value; do
       case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
       esac
@@ -224,38 +236,52 @@ else
       echo "Downloading from: $jarUrl"
     fi
     wrapperJarPath="$BASE_DIR/.mvn/wrapper/maven-wrapper.jar"
+<<<<<<< HEAD
     if $cygwin; then
       wrapperJarPath=`cygpath --path --windows "$wrapperJarPath"`
     fi
+=======
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
 
     if command -v wget > /dev/null; then
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Found wget ... using wget"
         fi
+<<<<<<< HEAD
         if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
             wget "$jarUrl" -O "$wrapperJarPath"
         else
             wget --http-user=$MVNW_USERNAME --http-password=$MVNW_PASSWORD "$jarUrl" -O "$wrapperJarPath"
         fi
+=======
+        wget "$jarUrl" -O "$wrapperJarPath"
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
     elif command -v curl > /dev/null; then
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Found curl ... using curl"
         fi
+<<<<<<< HEAD
         if [ -z "$MVNW_USERNAME" ] || [ -z "$MVNW_PASSWORD" ]; then
             curl -o "$wrapperJarPath" "$jarUrl" -f
         else
             curl --user $MVNW_USERNAME:$MVNW_PASSWORD -o "$wrapperJarPath" "$jarUrl" -f
         fi
 
+=======
+        curl -o "$wrapperJarPath" "$jarUrl"
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
     else
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Falling back to using Java to download"
         fi
         javaClass="$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.java"
+<<<<<<< HEAD
         # For Cygwin, switch paths to Windows format before running javac
         if $cygwin; then
           javaClass=`cygpath --path --windows "$javaClass"`
         fi
+=======
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
         if [ -e "$javaClass" ]; then
             if [ ! -e "$BASE_DIR/.mvn/wrapper/MavenWrapperDownloader.class" ]; then
                 if [ "$MVNW_VERBOSE" = true ]; then
@@ -296,11 +322,14 @@ if $cygwin; then
     MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
 fi
 
+<<<<<<< HEAD
 # Provide a "standardized" way to retrieve the CLI args that will
 # work with both Windows and non-Windows executions.
 MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
 export MAVEN_CMD_LINE_ARGS
 
+=======
+>>>>>>> fb69eab2d7447c0190b47b44246dbcea8e7fbad8
 WRAPPER_LAUNCHER=org.apache.maven.wrapper.MavenWrapperMain
 
 exec "$JAVACMD" \
