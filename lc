@@ -1,0 +1,54 @@
+[33mcommit 67141c10b4bda96cac0e427ab434d5ed756be928[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: e32ac52 fb69eab
+Author: gisele <gisa153@gmail.com>
+Date:   Mon Apr 6 17:52:45 2020 -0300
+
+    merge
+
+[33mcommit e32ac5265cd2f709a790367e1c35c11a8569df29[m
+Author: gisele <gisa153@gmail.com>
+Date:   Mon Apr 6 11:49:09 2020 -0300
+
+    Alteração no arquivo principal da aplicação.
+
+[33mcommit 4b37dc48940f885d5b29b1dff8b41ed1287edb96[m
+Author: gisele <gisa153@gmail.com>
+Date:   Mon Apr 6 11:40:23 2020 -0300
+
+    versao inicial
+
+[33mcommit fb69eab2d7447c0190b47b44246dbcea8e7fbad8[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Gisele-coelho <56741703+Gisele-coelho@users.noreply.github.com>
+Date:   Mon Apr 6 11:20:53 2020 -0300
+
+    Update README.md
+
+[33mcommit a4bb3b7e54435063ab1c34e502e3d679f2256d9e[m
+Author: gisele <gisa153@gmail.com>
+Date:   Fri Oct 18 19:17:17 2019 -0300
+
+    alteracao no travis
+
+[33mcommit 61f1e7698919410e993dd1074c03bfa8dd5d2576[m
+Author: gisele <gisa153@gmail.com>
+Date:   Fri Oct 18 19:12:31 2019 -0300
+
+    Integracao com o TravisCI
+
+[33mcommit ba94213df82fea693846210118c39974e1547cf3[m
+Author: gisele <gisa153@gmail.com>
+Date:   Fri Oct 18 18:04:19 2019 -0300
+
+    Alteracao no arquivo principal da aplicacao
+
+[33mcommit 04a4dba556ba9e756c50c671aecb991363664ff1[m
+Author: gisele <gisa153@gmail.com>
+Date:   Fri Oct 18 17:58:48 2019 -0300
+
+    versao inicial do projeto
+
+[33mcommit 9f8cc91379de55e6db067400ff5bbdc09c051a4a[m
+Author: Gisele-coelho <56741703+Gisele-coelho@users.noreply.github.com>
+Date:   Fri Oct 18 17:40:01 2019 -0300
+
+    Initial commit
